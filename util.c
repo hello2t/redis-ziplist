@@ -135,6 +135,7 @@ int stringmatchlen(const char *pattern, int patternLen,
                 pattern++;
                 patternLen--;
             }
+            break;
             /* fall through */
         default:
             if (!nocase) {
